@@ -15,13 +15,15 @@ import EditProduct from './components/EditProduct';
 import { EditContext } from './editContex';
 import { ProductContextProvider } from './editContex';
 import HotShot from './components/HotShot';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
   return (
     <ChakraProvider theme={theme}>
       {/* <ProductContextProvider>
         <EditProduct />
       </ProductContextProvider> */}
-      <HotShot />
+      <Footer />
     </ChakraProvider>
   );
 }
